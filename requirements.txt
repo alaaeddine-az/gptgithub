@@ -11,3 +11,5 @@ openpyxl==3.1.2
 tqdm==4.66.4
 statsmodels==0.14.2
 httpx==0.28.1
+flask_sqlalchemy==3.1.1
+facebook_business==15.0.0
