@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meta Ad Downloader</title>
+</head>
+<body>
+    <h1>Choisissez des critères</h1>
+    <form action="/download" method="post">
+        <label>Marque:</label>
+        <input type="text" name="brand" required><br>
+        <label>Début:</label>
+        <input type="date" name="start_date" required><br>
+        <label>Fin:</label>
+        <input type="date" name="end_date" required><br>
+        <label>Type de média (image, video):</label>
+        <input type="text" name="media_type" required><br>
+        <input type="submit" value="Télécharger">
+    </form>
+</body>
+</html>
